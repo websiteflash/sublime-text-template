@@ -8,19 +8,16 @@
 Hello, ${1:this} is a ${2:snippet}.
 Write anything you want here.
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <!-- 设置响应的字符，比如这里设置为hello，那么当我们在敲入hello时，sublime就会出现提示框 -->
+  <!-- 设置响应的字符，比如这里设置为hello，那么当我们在敲入hello时，sublime就会出现自动提示框 -->
   <tabTrigger>hello</tabTrigger>
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <!-- 指定配置的文件类型，如果是js文件的话，就是source.js -->
   <scope>source.js</scope>
-  <!-- Optional: Description to show in the menu -->
   <!-- 描述信息, 出现提示时，对该命令的描述 -->
   <description>my snippet demo</description>
 </snippet>
 ```
 
-将这个文件保存到 `Sublime Text\Data\Packages\User` 下，保存的文件，后缀名为 `hello.sublime-snippet`
+将这个文件保存到 `Sublime Text\Data\Packages\User` 下，保存的文件，后缀名为 `.sublime-snippet`，比如：`hello.sublime-snippet`
 
-到这里，就完成了。如果要创建更多的模版，只要按上面的步骤创建新的文件就可以.
+到这里，就完成了。如果要创建更多的模版，只要按上面的步骤创建新的文件就可以。
 
